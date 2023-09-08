@@ -21,7 +21,6 @@ public class WordcounterHook {
 
     @After
     public void ClosingTheStage() {
-
         OnStage.drawTheCurtain();
     }
 }

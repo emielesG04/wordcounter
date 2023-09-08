@@ -1,14 +1,13 @@
 package co.lumu.wordcounter.models;
 
-public class WriteText {
+public class DataText {
 
-    private final String text;
-
-    public WriteText(String text) {
+    private String text;
+    public DataText(String text) {
         this.text = text;
-
     }
     public String getText() {
+
         return text;
     }
 }

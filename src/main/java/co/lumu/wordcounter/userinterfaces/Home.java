@@ -7,4 +7,8 @@ public class Home {
             Target.the("text fiel")
             .locatedBy("//*[@class='form-control table-data finalResult textarea_revision processed']");
 
+    public static final Target COUNTED =
+            Target.the("counted")
+                    .locatedBy("//*[@class='pull-left']");
+
 }
